@@ -1,7 +1,16 @@
-input.txt
+input*.txt
+test_input*.txt
 sample*.txt
 problem.txt
 go.mod
 go.sum
 test*.py
 extra
+crap
+leaderboard
+ebooks
+go_snippets
+julia_snippets
+make_day
+rust_snippets
+template

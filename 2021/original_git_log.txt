@@ -1,0 +1,353 @@
+commit 6a72c64e8258cf4e69b5d4602ae194cd27492017
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Mon Jan 10 19:10:14 2022 +0100
+
+    Added Rust solution for Day 6
+
+commit 9fb50967fbf1f4d7b90292d2b9c6d8b0cf1e2573
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Mon Jan 10 13:28:26 2022 +0100
+
+    Updated README.md
+
+commit a378a5f3176d340b80ad6aec1e3a76983f9f6b7a
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Mon Jan 10 13:27:44 2022 +0100
+
+    Added Rust solution for Day 5
+
+commit 2ff0bcaeba96f2c9461ea16bc90e74117d2d5db0
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sat Jan 8 18:01:25 2022 +0100
+
+    Added Rust solution for Day 4
+
+commit 70fc6d69c01fe8b9fc73105c4830c572bb99410a
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Thu Jan 6 12:20:53 2022 +0100
+
+    Some refactoring of Day 3 Rust code
+
+commit 9cdd0406a8b60cdd564a7b28e3ec2180cd8cb0b7
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Thu Jan 6 10:07:10 2022 +0100
+
+    Updated README
+
+commit 585e30dd30a8bca7c1c2c7fd1265e432f68c0ff6
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Thu Jan 6 10:04:26 2022 +0100
+
+    Added Rust solution for Day 3
+
+commit 3871f7030ec2b8fc54a9339578a09a68d2830002
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Tue Jan 4 09:41:03 2022 +0100
+
+    Updated README
+
+commit eebab0d428bbf28926d37bfb0119d50065c367e4
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Tue Jan 4 09:39:44 2022 +0100
+
+    Added Rust solution for Day 2
+
+commit b0b12c249b3d6c7ea864ae516e2b270bd007f443
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Tue Jan 4 09:04:58 2022 +0100
+
+    Refactoring of Rust solution
+
+commit 2da039a87f754d697ba1685f1cc98dab1ffa2e0b
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Mon Jan 3 10:57:10 2022 +0100
+
+    Added Rust attempt for Day 1
+
+commit 28a84ca8f3caf9cf9e483f3aabfa7b9466a3db0a
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Fri Dec 31 09:40:07 2021 +0100
+
+    Day 24: added separate file with utility functions
+
+commit 802ac19c5deb8d510df454d7be4a0f65d000dd2c
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Fri Dec 31 09:39:16 2021 +0100
+
+    Day 24: some further optimizations and cleaning up of code
+
+commit 26406d6107b939f44fc0aac47b1dd4dee5e16100
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Thu Dec 30 11:20:20 2021 +0100
+
+    Fixes to README and day 24 comments
+
+commit 31ce9b9f964b2bd1ad3692c7e1e4203f7c320847
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Thu Dec 30 11:16:01 2021 +0100
+
+    Added Day 24
+
+commit 541d4c8474bc7b383236962dd99a36669aecf348
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Tue Dec 28 23:13:45 2021 +0100
+
+    Added Day 22, volume sum of intersecting cubes, in Go
+
+commit 11a77a7db1305b8ec531e6d8bdd7dfcaf923866e
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Tue Dec 28 05:36:45 2021 +0100
+
+    Refactored, broke into modules
+
+commit f6fa96dec7c1bd1f93da925633da8ceff95b23f0
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Dec 26 16:28:57 2021 +0100
+
+    Added Day 22, Part 1 only
+
+commit d70028a8f58a201870aa854c1f5394c1030a8f15
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Dec 26 16:20:04 2021 +0100
+
+    Updated README.md
+
+commit 504acdc76be030a77019af7c54533caa08f6c9f9
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Dec 26 16:17:24 2021 +0100
+
+    Added Day 25, Part 1 (Part 2 depends on solving all previous problems)
+
+commit a6fb1d8ac68191fa7aa57a0f2f7db05fd905e8b0
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Dec 26 16:11:43 2021 +0100
+
+    Added Day 23, board game solution (in Go, 3 days late)
+
+commit 8165f502ee7d51ea012e23db108bfe424143b230
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Wed Dec 22 01:08:05 2021 +0100
+
+    Added Days 20 and 21
+
+commit 47ffcb40a001540d53cfcf720ab3aed25dc465d4
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Dec 19 18:33:03 2021 +0100
+
+    Solution for Day 19 (matching cubes in 3D space, in Go)
+
+commit 8e205011d350fe821d46d03091292bb730b3866d
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sat Dec 18 15:21:54 2021 +0100
+
+    Cleaned up documentation and program output, add problem text, and updated README
+
+commit 2318636a0d308b084a176611329c7ffe41ea12b0
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sat Dec 18 14:29:14 2021 +0100
+
+    Completed Part 2, highest magnitude of adding up any pair of rows in the input file
+
+commit e74d155d968335444f55010611152934370458e3
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sat Dec 18 14:16:35 2021 +0100
+
+    Calculate magnitude, of expression and entire file added up (completes Part 1)
+
+commit 9f0cd5d264ee5a08d59c90d239b1c433fecb3839
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sat Dec 18 13:26:15 2021 +0100
+
+    Add up lines in a file
+
+commit c605bf8b1b86f381219579dd0951c6492c82794a
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sat Dec 18 11:40:36 2021 +0100
+
+    Implemented reduce
+
+commit 26276fd22804591c3bda4239a06a3f1b09d81f5e
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sat Dec 18 10:18:20 2021 +0100
+
+    Added split first found 10+ number
+
+commit 60a5371cbbf5e5e4d3891b04c364c9a6c42ea353
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sat Dec 18 09:23:18 2021 +0100
+
+    Added split
+
+commit 250a2415f14e804bd6781e992838b034aae530b8
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sat Dec 18 09:13:49 2021 +0100
+
+    Day 18 in Go: parse, add, explode expressions, with unit tests
+
+commit 2d13341d9f6bf8ac4192a1774fbf52f3a9e7fea8
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Fri Dec 17 07:33:38 2021 +0100
+
+    Added solution for Day 17, simple projectile simulation
+
+commit c5e5c3f636711c69e34f5b0837d9f2465e073ce6
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Thu Dec 16 18:48:06 2021 +0100
+
+    Updated README
+
+commit e15f71c1adc218c1c1d5acde8efce0d9ec8e083f
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Thu Dec 16 18:46:50 2021 +0100
+
+    Added Julia solution for Day 15, with Dijstra implementation
+
+commit 435311bb5b57bb353775acb9f3399a71dcfd7d35
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Thu Dec 16 18:46:04 2021 +0100
+
+    Added Day 16, parsing of binary instructions and execution using a LISP-like interpreter
+
+commit efda879f5e283ec41d30e2ee0a7ee6fa9f22fd58
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Wed Dec 15 21:39:38 2021 +0100
+
+    Added Day 15 graph shortest path problem, in Go
+
+commit da65c27d945d98ecfa8a7e80accd0e8d8818b6d0
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Tue Dec 14 16:16:43 2021 +0100
+
+    Added Go code for Part 1 of Day 14 (works for 10 iterations but not 40)
+
+commit e24beb1e8adb899301bbef65e1a501ff2866e369
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Tue Dec 14 13:32:09 2021 +0100
+
+    Updated README, added timer to day 14
+
+commit c0474f0cd90e539c0c78167e19d3aeb117927b52
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Tue Dec 14 13:15:34 2021 +0100
+
+    Updated README
+
+commit 8793fc13e7cd44a239380c68dabf91718bd8f4b8
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Tue Dec 14 11:56:52 2021 +0100
+
+    Added Day 14 (character string expansion, in Python)
+
+commit 80fd92f1f55577dd73d89c5889fab09406de4b49
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Mon Dec 13 11:17:29 2021 +0100
+
+    Added Day 13 origami exercise (Julia)
+
+commit 7452dc2408cb54d32fba43f66a7c30b1b3fc7331
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Dec 12 16:52:40 2021 +0100
+
+    Added Day 12 (graph path enumeration, in Julia)
+
+commit 27a1f72b4762fcbe561f8477dde79ec9e537ec6b
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sat Dec 11 07:58:40 2021 +0100
+
+    Added Day 11
+
+commit 261adc5dff6a418f1f7673f23bc1be7eb4ef19be
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sat Dec 11 07:54:38 2021 +0100
+
+    Added test input files to the repo
+
+commit 58023fa1d1a7b943cce33bedfa2b78c7e0c7faaa
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Fri Dec 10 10:07:25 2021 +0100
+
+    Added Day 10 solution in Python
+
+commit ead0305ef772b136b88b23e27b6fa65e5ba9f128
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Thu Dec 9 10:00:09 2021 +0100
+
+    Added problem statement for day 9
+
+commit 8ea1f6f62bdb567d4af5cd709b095b9f3fbb3d3a
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Thu Dec 9 08:47:57 2021 +0100
+
+    Added Day 9, searching for areas around low points in 2-dimensional space
+
+commit 4a59242311c4916d810247047ea73a030d7a44b5
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Wed Dec 8 15:42:49 2021 +0100
+
+    Day 8: cleaned up code, comments
+
+commit b160c2383abd04aa440d8188115c7ab30c872fcb
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Wed Dec 8 13:10:04 2021 +0100
+
+    Added day 8 (decoding scrambled LED digits, in Julia)
+
+commit 8b787783c9ddb14837028947d7edb694a428af82
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Tue Dec 7 08:25:05 2021 +0100
+
+    Added Day 7 (simple brute-force optimization, in Julia)
+
+commit d53d2aae880d8e64a20f23edb1cdd120857ce542
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Mon Dec 6 11:05:25 2021 +0100
+
+    Added Go solution for Day 6
+
+commit 6bf8656dc7dc0892dd89af3e27b8b2023778eb6e
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Mon Dec 6 08:18:03 2021 +0100
+
+    Updated README.md
+
+commit 7fa4a3c1bf0f4444f8c259f55c5699628b534743
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Mon Dec 6 08:09:58 2021 +0100
+
+    Added day 6, cleaned up problem text of previous days
+
+commit 031afb1e4f6ca06c4363bbca7b64adbf924aa8d1
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Dec 5 16:34:04 2021 +0100
+
+    Changes to documentation
+
+commit 3d1429d259506a4595d5996ff6cc1f3f9c1bbc68
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Dec 5 16:28:29 2021 +0100
+
+    Added documentation to a couple of programs, and added summary and compile/run instructions to README
+
+commit fb29f5cf95afd866ad6965ae6e69337964cadac8
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Dec 5 13:15:15 2021 +0100
+
+    Renamed directories to lower case so liteide can run programs
+
+commit f15b25355ac264ec1f9b6a79481f7da99cfffa06
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Dec 5 12:56:24 2021 +0100
+
+    Added days 2-5 to new repo
+
+commit 11211f8e3ad0d938f340e48129ace89d568dba10
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Dec 5 12:54:15 2021 +0100
+
+    Added Day 1 to new repo
+
+commit 80139394022d0b8003ec45944673b6586d4ce8fb
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Dec 5 12:42:12 2021 +0100
+
+    Initial commit

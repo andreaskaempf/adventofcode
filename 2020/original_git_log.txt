@@ -1,0 +1,239 @@
+commit 49f118e31975d3ac8dff881fc288078623f2a636
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Tue Sep 5 19:33:08 2023 +0200
+
+    Day 24, part 2
+
+commit d62baf519e032616e641006ebf98938125526f76
+Author: Andreas Kaempf <andreas.kaempf@bain.com>
+Date:   Tue Sep 5 13:53:59 2023 +0200
+
+    Refactored for part 2
+
+commit c6670cc4864dbea5a8563f1d555f3b25bc276165
+Author: Andreas Kaempf <andreas.kaempf@bain.com>
+Date:   Tue Sep 5 11:01:39 2023 +0200
+
+    Day 24, part 1
+
+commit 215d7f32e93db3540cf9b6c2af5dd77985405107
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Tue Sep 5 10:40:03 2023 +0200
+
+    Added stub go file
+
+commit a68ac1430964f4d93b0dd2a843276eaecdf2170a
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Sep 3 19:10:25 2023 +0200
+
+    Added problem and input data for days 24 and 25
+
+commit e41d3dee5b3019c987c5021216f56a3c408f2e49
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Sep 3 12:31:08 2023 +0200
+
+    Day 23, part 1 (and naive start of part 2)
+
+commit abe662b0faa4bdf9ed9ca01d459e02dcb67a85cd
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Sep 3 12:30:14 2023 +0200
+
+    Changes to Day 19 (recursive pattern matching), 14 Dec 2022 but not committed
+
+commit 7f4202046418f04764896cb24a6faeef01c8f071
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sat Nov 26 17:12:20 2022 +0100
+
+    Added solution for Day 22, part 1
+
+commit 40d0e7330c978be94b5bf1eb6197e85d2b5b5434
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Thu Nov 24 21:39:26 2022 +0100
+
+    Added Day 21 solution
+
+commit 932c8deace1ea4aa4a20ea0da97cdfbdb6d2d4b5
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Wed Nov 23 21:00:01 2022 +0100
+
+    Added solution for fiendish Day 20
+
+commit b9c45d1ca002492903346136ab2cf3482aa944b1
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Fri Oct 21 13:09:31 2022 +0200
+
+    Added solution for Day 19 (Part 2 not working yet)
+
+commit 7b2af15bce364f349b24df34a250f86c817d7abf
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Tue Oct 18 08:46:26 2022 +0200
+
+    Added script to initialize a new directory
+
+commit ed0458892bfe825aafd53df63ee6d58450f19955
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Mon Oct 17 21:21:05 2022 +0200
+
+    Added solution for Day 18
+
+commit 5248c5e224d2908b6de2e8fbef1284f093ddb444
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Mon Oct 17 21:18:43 2022 +0200
+
+    Added solution for Day 17
+
+commit 3db39228c3e5a0fbc201790330631509cd52d9a9
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Oct 16 15:15:17 2022 +0200
+
+    Added solution for Day 16
+
+commit d26603812c9aa81f3adfe833bb369ae920a6aba1
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sat Oct 15 17:52:37 2022 +0200
+
+    Added solution for Day 15
+
+commit c6e38627d8b6e102af24d269902ecca294afb915
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sat Oct 15 16:21:50 2022 +0200
+
+    Added solution for Day 14
+
+commit bc6170a63b23962af6d7e49117a8419383537a64
+Author: Andreas Kaempf <andreas.kaempf@bain.com>
+Date:   Fri Oct 14 10:38:51 2022 +0200
+
+    New input data for day 13 (takes 13 mins to run)
+
+commit ba60957081384c4dfd021b820fc9195afcb03b1c
+Author: Andreas Kaempf <andreas.kaempf@bain.com>
+Date:   Fri Oct 14 10:19:41 2022 +0200
+
+    New input data for day 12
+
+commit aa8d53d3994ec9a2478d32e9ea2c3f1798b7af0c
+Author: Andreas Kaempf <andreas.kaempf@bain.com>
+Date:   Fri Oct 14 10:17:08 2022 +0200
+
+    New input data for day 11
+
+commit 3f19db75bac3adc96ab2ad6eed81966b1bad44d0
+Author: Andreas Kaempf <andreas.kaempf@bain.com>
+Date:   Fri Oct 14 09:51:39 2022 +0200
+
+    New input data for day 10
+
+commit 34db4088cca457de2e5b022b302c9a9f6f48e158
+Author: Andreas Kaempf <andreas.kaempf@bain.com>
+Date:   Fri Oct 14 09:48:36 2022 +0200
+
+    New input data for day 9
+
+commit b570fd0c8ef4c27826bed0cdf9f54e1defc580b3
+Author: Andreas Kaempf <andreas.kaempf@bain.com>
+Date:   Fri Oct 14 09:42:46 2022 +0200
+
+    New input data for day 8
+
+commit 5b200b89504f7cea0e7120b5c28187fc41f1ecd8
+Author: Andreas Kaempf <andreas.kaempf@bain.com>
+Date:   Fri Oct 14 09:39:27 2022 +0200
+
+    Fixed day 7, part 2
+
+commit 29c3ee0065acc1289f3a41ce392dd5ad636bb1bc
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Thu Oct 13 22:20:52 2022 +0200
+
+    Added partial solution to day 7
+
+commit dfa7152bf9c77c217d70e53d4cc030112761f473
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Mon Sep 26 12:38:18 2022 +0200
+
+    Updated days 1-3 with new inputs corresponding to account using GitHub login, rather than password login
+
+commit 7d42816340079aca87c3c04354291fc9863f1b73
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Tue Jan 25 08:13:05 2022 +0100
+
+    Day 13: clarified some comments
+
+commit d6406a028e1f5e30888a3886bfd00a985fca3f8f
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Tue Jan 25 07:59:16 2022 +0100
+
+    Added brute-force solution for Day 13 (Go)
+
+commit d78b9971700396cc14e0168a9db489db3b37e447
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Jan 23 11:18:06 2022 +0100
+
+    Added Part 2 of Day 12
+
+commit c3dc581b9804417d86c95e4be5c4c316a3d4f717
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Thu Jan 20 18:21:46 2022 +0100
+
+    Added Day 12, part 1 (Jan 14)
+
+commit f6c295a1fe091c5126a5c2a1de128cae1e283b86
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Fri Jan 14 12:13:34 2022 +0100
+
+    Added Day 11, part 2
+
+commit 2ea414e00cef83b5581595e20df80e97cd426390
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Fri Jan 14 10:09:53 2022 +0100
+
+    Added Day 11, part 1
+
+commit b4f3c8efdacf863daaf24474ac6a43903c86a5fc
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Tue Jan 4 18:39:49 2022 +0100
+
+    Added Day 10 (Python)
+
+commit 67a4cb48df0f820fe05d6280a5aa83e05a4e7a99
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sat Jan 1 23:28:55 2022 +0100
+
+    Added Day 9
+
+commit 488c8749902e42ca7e47e2b66a1a074ca700220e
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sat Jan 1 23:00:24 2022 +0100
+
+    Added Day 8
+
+commit 244c2db8c694a9f419fda6bb6f663905f4e94f2d
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sat Jan 1 21:53:16 2022 +0100
+
+    Added Day 7 -- recursive counting up and down tree
+
+commit 2dc3ab3b2b8f7f9ee9b58882b895615b3f133f67
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sat Jan 1 17:26:54 2022 +0100
+
+    Added days 5 and 6 on 1 Jan 2022
+
+commit 232830b44c738407e650ba9ef47e1f2d750c6cfe
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Fri Dec 31 13:51:22 2021 +0100
+
+    Added Days 3 and 4
+
+commit 1de023ede0f2e621ed6f75bfc4ff8fb40978cbae
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Fri Dec 31 12:01:49 2021 +0100
+
+    Initial repository, added Days 1 and 2 (done Dec 17), README.md
+
+commit 9e3164a8b60e09317c1315bb5fad1425242afcaf
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Fri Dec 31 11:39:59 2021 +0100
+
+    Initial commit

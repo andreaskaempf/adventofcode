@@ -1,0 +1,444 @@
+commit 387b7cc465f9217ba9964c57d5b4898c10e2b2c7
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sat Oct 19 17:32:44 2024 +0200
+
+    Rust solution for Day 11
+
+commit 13fe2e6bd79ccaf55570dfab386b21f637e17b9c
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Mon Oct 14 21:24:48 2024 +0200
+
+    Minor change to README.md
+
+commit ed86d0ed3d623f4dd1eb018691eb29a19ed0ad23
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Mon Oct 14 21:16:55 2024 +0200
+
+    Minor change to README.md
+
+commit 1661fe99af8b7966acc94f5764d3b1517017b7c1
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Mon Oct 14 21:15:53 2024 +0200
+
+    C brute-force solution for Day 5
+
+commit 1b858ad7f95eba9b9dae0499468312317cff434f
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Mon Oct 14 21:07:26 2024 +0200
+
+    Zig brute-force solution for Day 5
+
+commit cbf5dbfbd6db9b8013fb106e7a7677eaf71e2281
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sat Oct 12 09:33:08 2024 +0200
+
+    Rust solution for Day 10
+
+commit 855dd2936f4710ff070a9181f1d8878a9aff2c25
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sat Oct 12 09:09:25 2024 +0200
+
+    Rust solution for Day 9
+
+commit 2fff789c08aff9c8e2f66b170ac5072d5939367a
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Wed Oct 9 18:26:15 2024 +0200
+
+    Rust solution for Day 8
+
+commit 0b679fcca5b6f4df104f2226d5dc5bf4e19fd9c0
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Tue Oct 8 22:54:26 2024 +0200
+
+    Rust solution for Day 7, Part 2
+
+commit 429b8b20b38d7693b1b1c31ca69bdf4dcd8a354a
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Oct 6 21:51:44 2024 +0200
+
+    Rust solution for Day 7, Part 1
+
+commit d4d8b2317cd51022ce64dbc0b07e1d9898b290a8
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sat Oct 5 19:35:34 2024 +0200
+
+    Rust solution for Day 6
+
+commit ec3d05d9ac18d50fa886a44aa3ffbff3a7a63f83
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sat Oct 5 16:19:13 2024 +0200
+
+    Rust solution for Day 5
+
+commit 84b0907e8c6080de773ae021f441851c31874123
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Fri Oct 4 09:05:09 2024 +0200
+
+    Rust solution for Day 4, Part 2
+
+commit eb3c61e7479ce49825762973eca9d0b3f6eb0d53
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Fri Oct 4 08:22:11 2024 +0200
+
+    Rust solution for Day 4, Part 1
+
+commit acdab931a89644eddc5e98e0dca3f211bd656130
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Thu Oct 3 19:22:21 2024 +0200
+
+    Updated README.md
+
+commit d188de3c46b27a45f8721a3ebc72e25a35893d9e
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Thu Oct 3 19:18:21 2024 +0200
+
+    Rust solution for Day 3
+
+commit 7c0b06f835e0aa884d9be70f2069bda455bf8395
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Thu Oct 3 15:12:29 2024 +0200
+
+    Rust solution for Day 2
+
+commit 7ac5d3f13d0f3e5dce3926d59faef0b9f0530b12
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Tue Oct 1 18:27:56 2024 +0200
+
+    Rust solution for Day 1
+
+commit 0c541c03dc9dbc759eb2dd5709c05e10bde8926f
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Fri Dec 29 18:58:50 2023 +0100
+
+    Solution for Day 21, Part 2, now complete
+
+commit 404c24ac81488a9e1701558676e5c5f2fd8eee0f
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Thu Dec 28 11:01:43 2023 +0100
+
+    Solution for Day 20
+
+commit 6f46bdfb663a00c3741e36d7e0cfbba4caf399b4
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Thu Dec 28 07:24:15 2023 +0100
+
+    Solution for Day 23 (done on 23 Dec but forgot to commit)
+
+commit 835e569f3788e427fd109ec01be257d02aa04fe7
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Thu Dec 28 07:18:42 2023 +0100
+
+    Day 24: Centipede constraint solver solution for Part 2
+
+commit af72adb2b6f63f5f5fd7c28a4cf867bd2d74e631
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Wed Dec 27 18:54:21 2023 +0100
+
+    Solution for Day 22, Part 2
+
+commit 0c3c9ed4b24d99db7f55974d106828fae458d9cf
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Wed Dec 27 16:40:40 2023 +0100
+
+    Solution for Day 22, Part 1
+
+commit 67bec3ac32f3e9120309cd7d3382d5e84b89fb79
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Wed Dec 27 11:04:05 2023 +0100
+
+    Solution for Day 19, Part 2
+
+commit a687fa733b68ea8c32544ec7749265d980dcadab
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Wed Dec 27 07:29:57 2023 +0100
+
+    Day 24, Part 2
+
+commit 5eaa45a7161ad2d1827506a375c438cfd765e8bd
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Mon Dec 25 18:28:38 2023 +0100
+
+    Solution for Day 25
+
+commit ee3dbafa345d8ded9774437297e780db8087cdd9
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Dec 24 10:19:48 2023 +0100
+
+    Comments for Day 23
+
+commit 7c8d995bbfe32b883df85f86e858b77b10ba15be
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Dec 24 10:14:38 2023 +0100
+
+    Added comments and README for Day 19
+
+commit 064549a8c793c3926fe770fd1c77479bdc5c07d8
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Dec 24 10:10:55 2023 +0100
+
+    Added problem and README text for Day 18
+
+commit cab609867c6f6dc747cea2c59cf47f334023bb50
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Dec 24 10:05:07 2023 +0100
+
+    Updated comments for Day 21
+
+commit 28a9cc517a1bad5020a666cdac6d9877b7a44078
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Dec 24 09:57:09 2023 +0100
+
+    Solution for Day 24, Part 1
+
+commit e814fde998cf9c01f630ae3be766887495a381b2
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Fri Dec 22 16:57:59 2023 +0100
+
+    Day 21, Part 1
+
+commit 6a5a44cdccba834d8b36eedd3f87c4e28a9399d4
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Tue Dec 19 07:21:06 2023 +0100
+
+    Additional files for Day 19, Part 1
+
+commit 17544993fb77a71f191e18ccd20148bea0283fed
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Tue Dec 19 07:17:54 2023 +0100
+
+    Solution for Day 19, Part 1
+
+commit 082e098360813355eb3c44bf88f895a0b6567faa
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Tue Dec 19 06:06:33 2023 +0100
+
+    Solution for Day 18
+
+commit 40f797a4345a066c1973b9546e61893f85720b16
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Mon Dec 18 22:19:40 2023 +0100
+
+    Work on Day 18, Part 2
+
+commit 4f8a7c834dc030f0b3e829233ee2741ce116a68b
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Mon Dec 18 21:27:53 2023 +0100
+
+    Work on Day 18, part 2
+
+commit 8e5e4f9c3d86adaf041e4c4110a9d2f0aabc0912
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Mon Dec 18 20:28:53 2023 +0100
+
+    Updated documentation for Day 17 (last commit message should have said solution for day 17, part 2, not day 18)
+
+commit e11963f65c9fbda4e715d51f632ff84cd58f170c
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Mon Dec 18 20:25:15 2023 +0100
+
+    Solution for Day 18, Part 2
+
+commit fcd9c51b1ee8f6e780425a0706f548b10b73b6f2
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Mon Dec 18 19:35:01 2023 +0100
+
+    Cleaned up Part 1 solution for Day 17
+
+commit 2b3d3e6df68abb472ca4229f4621087bc6dc0911
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Mon Dec 18 19:32:32 2023 +0100
+
+    Solution for Day 18, Part 1
+
+commit 10d9610fb390686c6a1f023e8004f870ed9589e4
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Mon Dec 18 19:30:27 2023 +0100
+
+    Solution for Day 17, Part 1
+
+commit 0fdcad82c8d6b62cfa2a078d3c49950c7c43e8d8
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Dec 17 11:52:48 2023 +0100
+
+    Initial solution for Day 17, not working
+
+commit e59f5f6ff65f764f5926b0cadaa0f35d743aa9ac
+Merge: a0522ba 278e89b
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sat Dec 16 08:46:09 2023 +0100
+
+    Merge branch 'main' of github.com:andreaskaempf/adventofcode2023
+
+commit a0522ba999750fc1568b99f1e6f45b9ef57780e5
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sat Dec 16 08:45:23 2023 +0100
+
+    Solution for Day 16
+
+commit 278e89b1d7db8f9d80fc8bfdd3863de8dc6fa030
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Fri Dec 15 14:40:14 2023 +0100
+
+    Added scripts to pull and plot average daily leaderboard times, by year
+
+commit 0d0a9b74a110e3c69fd87e8d34499f95197170c9
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Fri Dec 15 07:52:33 2023 +0100
+
+    Solution for Day 15
+
+commit e920ed7cb1557192b9be86738c355514927d23fe
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Thu Dec 14 11:41:57 2023 +0100
+
+    Solution for Day 14, both parts
+
+commit c0543da6060c39f7275a4a138b11168c3f00114f
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Thu Dec 14 07:30:51 2023 +0100
+
+    Solution for day 14, part 1
+
+commit 171368b0d5898ddc73257943908f0e906192c395
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Wed Dec 13 22:23:55 2023 +0100
+
+    Updated README
+
+commit 382188510e7d891db41c388c12b2337ad6b458bf
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Wed Dec 13 22:21:50 2023 +0100
+
+    Solution for Day 13, both parts
+
+commit fc5f931cf53e319891a954fc94e62f29551fb105
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Wed Dec 13 07:40:22 2023 +0100
+
+    Solution to Day 13 (part 2 not working)
+
+commit 8582cbea6250ee0e9790016df55728dbb8c7facb
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Tue Dec 12 21:52:20 2023 +0100
+
+    Solution for Day 12, Part 2
+
+commit dc50f5be41a1815d17de166d456c5222bd993d5f
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Tue Dec 12 08:19:27 2023 +0100
+
+    Solution for Day 12, Part 1
+
+commit de639f717cdbe8b14299aba24efd0b15c0f908ea
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Mon Dec 11 07:06:01 2023 +0100
+
+    Solution for Day 11
+
+commit 5ac8ce3992e4f589a3081b8529e9576584225380
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Dec 10 13:38:45 2023 +0100
+
+    Day 10: Part 2 now working
+
+commit 44096944be3ac897f6ea7f0c2ffb46ea77d9e13b
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Dec 10 10:38:31 2023 +0100
+
+    Day 10: work on Part 2
+
+commit 8692d0a51cff65782c3910103f8cd78b23a1dfa4
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Dec 10 09:19:30 2023 +0100
+
+    Solution for Day 10, part 1
+
+commit 6ef242e50b2bc18ba4957f9560a0b4509eeaf52f
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sat Dec 9 07:17:41 2023 +0100
+
+    Solution for Day 9
+
+commit 40648ea797c05de8faa816514773f6a8295f8a39
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Fri Dec 8 18:13:02 2023 +0100
+
+    Day 8: some code simplification
+
+commit e72a8331b9d67332ab2ee0c2b00ffb9c3c836060
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Fri Dec 8 17:58:16 2023 +0100
+
+    Day 8: cleaned up comments
+
+commit 082dc6bc6ff430ff03571459a3fc726298360ac8
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Fri Dec 8 15:22:04 2023 +0100
+
+    Solution for Day 8, both parts
+
+commit 6345afb1407bc36f4e299dd451516f7184bb971c
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Fri Dec 8 08:33:27 2023 +0100
+
+    Solution for Day 8 (just Part 1 working)
+
+commit 43ff7a90e08f0f5cd5b816bcc7c9409918061c30
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Thu Dec 7 11:45:34 2023 +0100
+
+    Solution for Day 7
+
+commit d996530e872a8e80801497317902673d7901a803
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Wed Dec 6 06:35:00 2023 +0100
+
+    Solution for Day 6
+
+commit e1c706720068d171da1a52f4d7ba464098582466
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Tue Dec 5 09:02:37 2023 +0100
+
+    Added memoization, but disabled because runs out of memory
+
+commit a6eb0dcb1b43c36c5de08610e1541d2f204309f9
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Tue Dec 5 07:44:29 2023 +0100
+
+    Solution for Day 5
+
+commit e25b8d076f589d8a77bf08790befa1d03dd45e81
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Mon Dec 4 07:39:53 2023 +0100
+
+    Solution for Day 4
+
+commit 6d904736e728d7a3ec89986f3486066e0bfbd3e4
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Dec 3 07:35:31 2023 +0100
+
+    Solution for Day 3
+
+commit ec7efec2463d7154e78ed9e550bded9409a5397c
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sat Dec 2 07:33:32 2023 +0100
+
+    Solution for Day 2
+
+commit f42526bd21c9579239f21595fb142bb4637f64b6
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Fri Dec 1 06:45:08 2023 +0100
+
+    Change to README
+
+commit 4546517297815fdbcfe39404fde571745463c39c
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Fri Dec 1 06:42:36 2023 +0100
+
+    Solution for Day 1
+
+commit a2274e69bfb57b463ddc84d7126f2fea3703a921
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Fri Nov 24 16:35:48 2023 +0100
+
+    New repository

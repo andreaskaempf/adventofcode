@@ -4,3 +4,4 @@ problem.txt
 go.mod
 go.sum
 test*.py
+extra

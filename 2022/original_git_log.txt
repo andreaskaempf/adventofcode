@@ -1,0 +1,329 @@
+mommit 22038ccc5ec2558459d24d082138e04ae322aa2a
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Thu Jan 12 10:05:16 2023 +0100
+
+    Added comments to README.md including line counts of all solutions
+
+commit 0808334bbcea82c1564cbd4bae48a054ad5621a1
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sat Dec 31 09:52:04 2022 +0100
+
+    Minor changes to documentation
+
+commit a96eb581be0bc312fb56b8fe68b52b63f74923da
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sat Dec 31 09:44:33 2022 +0100
+
+    Cleaned up some files
+
+commit 10a96b603e63c3da22a33639a8c9ae3581bb8551
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sat Dec 31 09:42:52 2022 +0100
+
+    Added documentation, missing problem statement, etc.
+
+commit 35875463d75052cf3ff6519de26de90be630cecd
+Author: Andreas Kaempf <andreas.kaempf@bain.com>
+Date:   Mon Dec 26 18:10:01 2022 +0100
+
+    Added solution for Part 2 of Day 22, and final problem text for Day 25
+
+commit df58925adbad222688d1ee2a1ba9cfae86f2aa5b
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Mon Dec 26 14:06:09 2022 +0100
+
+    Refactored to prepare for Part 2
+
+commit 042ad127aff4a821adbe8b0f5685e1861f421b84
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Mon Dec 26 09:30:31 2022 +0100
+
+    Day 16: added dynamic programming solution for Part 2
+
+commit 55ddb502a1819f02be9f86b09550cc44d56a4c11
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Mon Dec 26 07:59:58 2022 +0100
+
+    Day 16: removed previous brute force and optimization attempts, cleaned up code for Part 1
+
+commit 9bcdf2e1761f2af84283bcf14cc0de4500174682
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Mon Dec 26 07:52:31 2022 +0100
+
+    Day 16: formulated simple and fast dynamic programming solution for Part 1
+
+commit c212f809ec6fb269cb07a0b43ba13a16510b20e2
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Dec 25 13:30:54 2022 +0100
+
+    Added solution for Day 25, part 1 (need to complete everything else to get part 2)
+
+commit 4b5b4c9919a27a5dc740218e1aa6882e4abf7bd7
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sat Dec 24 13:35:51 2022 +0100
+
+    Added solutions for Day 24
+
+commit 10c713e61f5ee09eeb2b43378f15d019be12831e
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Fri Dec 23 18:34:54 2022 +0100
+
+    Added solution for Day 19
+
+commit 99051e970f48a7b4c329ddde5f86cb57065d71c7
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Fri Dec 23 14:43:50 2022 +0100
+
+    Added solution for Part 1 of Day 22
+
+commit b8574e1d87ad517d5f4890cd5e848902fdd35db1
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Fri Dec 23 14:36:48 2022 +0100
+
+    Added solution for Day 23
+
+commit 1539864297b7700d3838e63e1aa6984ed7c4eb78
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Wed Dec 21 08:46:44 2022 +0100
+
+    Changes to documentation for Day 21
+
+commit 5e58058a9e60c00ba23243f34e556107b91ed9a6
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Wed Dec 21 08:45:21 2022 +0100
+
+    Added solution for Day 21
+
+commit e7eb3c2a91243f61c6e71dced9dbb3a86e9d1cf6
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Tue Dec 20 15:53:21 2022 +0100
+
+    Added solution for Day 20
+
+commit 0f568b6e8bc168ac38dc54a09ef3b7fc7344de53
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Dec 18 18:25:55 2022 +0100
+
+    Cleaned up code for day 17
+
+commit ffe89ef1ae807d1fdfd13a96786f37e845d23f86
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Dec 18 18:10:22 2022 +0100
+
+    Added solution for Part 2 of Day 17 (code needs to be cleaned up)
+
+commit 195d1fd5995716168937b53159e444a8f9d17816
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Dec 18 10:45:26 2022 +0100
+
+    Added missing go.mod files to make Go programs easier to compile in one step (no need to: go mod init day00)
+
+commit d8d957295ddb94d01613a8129d8cc97d002d20f5
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Dec 18 10:43:05 2022 +0100
+
+    Added solution for Day 18 (both parts)
+
+commit bce9b080a3800e8a574338ef14e99d12fb3381b2
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sat Dec 17 16:07:15 2022 +0100
+
+    Added solution for Part 1 of Day 17
+
+commit 003909fa8180f3ecc3f7071d3a59a536910fea0c
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sat Dec 17 08:17:32 2022 +0100
+
+    Added brute force solution for Day 16, Part 1 only
+
+commit d9e9da8ff22b72b254da6ccdb66a54c61f6e92e2
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Thu Dec 15 12:25:41 2022 +0100
+
+    Updated README with Day 15
+
+commit dafd731aae1b4ef696d67ae9241c366d4ad5cbcb
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Thu Dec 15 11:11:12 2022 +0100
+
+    Added solution for Day 15
+
+commit 31da347fa032fc394023e81952d0ac2a63eac235
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Wed Dec 14 11:19:49 2022 +0100
+
+    Added solution for Day 14
+
+commit 04d023cca3a36ab1f815a27b3b8eafd6a4f7d433
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Tue Dec 13 08:25:48 2022 +0100
+
+    Added solution for Day 13
+
+commit fdf1624afb755c7ee6aef404ea73378f3103c64b
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Mon Dec 12 13:42:41 2022 +0100
+
+    Added some comments to Day 12 code
+
+commit 2030d1ea9b6fb238a2d87ed07e4ce19ed5465ec3
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Mon Dec 12 09:08:56 2022 +0100
+
+    Added solution for Day 12
+
+commit 3072dda61fea781c73c82cae795429eaf558735f
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Dec 11 10:24:20 2022 +0100
+
+    Solution for Day 11, Part 2
+
+commit 5675dbf22e4fc5095c5e3c9dabb13e358e9c055e
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Dec 11 07:41:06 2022 +0100
+
+    Solution for Day 11,  Part 1
+
+commit d86cdea1ca935c7840648f912d08a8a799fa2cba
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sat Dec 10 08:27:25 2022 +0100
+
+    Added solution for day 10
+
+commit 1d8915881660d850c005a8421fbf9826887772e6
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Fri Dec 9 09:11:47 2022 +0100
+
+    Added solution for Day 9
+
+commit d72081aaa21f31a994eb9706e52b0925c5ee6cc0
+Author: Andreas Kaempf <andreas.kaempf@bain.com>
+Date:   Thu Dec 8 12:57:25 2022 +0100
+
+    Solution for Day 8, Part 2, with unit tests
+
+commit 5885317ccf1042f7db65153e5f90b7d75d942d40
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Thu Dec 8 09:10:49 2022 +0100
+
+    Added problem text for Day 8
+
+commit 70eddd59fc14df571e55065190a617ab4b96611b
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Thu Dec 8 08:30:57 2022 +0100
+
+    Change to part 2
+
+commit d1694ca967e18cbd1a7c1b05bdce69a0b23a3320
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Thu Dec 8 08:08:33 2022 +0100
+
+    Added solution for Day 8, just part 1
+
+commit 4b9c578b2b676f1f2c48f0186822108dae0c31a7
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Wed Dec 7 11:43:29 2022 +0100
+
+    Improvements to template code: strip blank lines after reading file, genericized some functions
+
+commit 6f164b8b2dfb07b759fb6cbdd42f72ffe53e6144
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Wed Dec 7 11:06:44 2022 +0100
+
+    Changed Day 7 to use memoization (re-use directory size rather than recomputing each time)
+
+commit bdb4f2cc4f876ebd74b7a7d9213057a59e25fd72
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Wed Dec 7 09:33:33 2022 +0100
+
+    Added solution for Day 7
+
+commit cd6cd819c803a3075cf8f16fbd8f013c55337bc5
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Tue Dec 6 15:07:51 2022 +0100
+
+    Day 06, further optimized to use pointer to same string, rather than a copy of each subsegment
+
+commit 6d4a3095cbc3aada185236ad0f32e5573bd5917e
+Author: Andreas Kaempf <andreas.kaempf@bain.com>
+Date:   Tue Dec 6 13:30:39 2022 +0100
+
+    10x faster solution for Day 6, using concurrency and simpler check for duplicates; used Marc's 10k data set to check performance
+
+commit 8dce9038eb9c063b4115554e1882aaf5f352bfa2
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Tue Dec 6 07:25:13 2022 +0100
+
+    Added solution for Day 6
+
+commit c2c708ca76d9ea94436c10a3681d2f6f9e65b866
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Tue Dec 6 07:14:25 2022 +0100
+
+    Added solution for Day 6
+
+commit 1d34e7962427f828c0e073cf0be7c7f133193f42
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Mon Dec 5 07:39:42 2022 +0100
+
+    Added solution for Day 5
+
+commit 4fd01048019684b6a494633fa955ec53434c13bd
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Dec 4 06:43:55 2022 +0100
+
+    Added some functions to template
+
+commit a71416ae0bd2b1784e0245748704e1c9de7dca43
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sun Dec 4 06:31:51 2022 +0100
+
+    Added solution for day 4
+
+commit b2e119e779348076ebec1d90f40c4bfa3ff49ebe
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sat Dec 3 07:35:11 2022 +0100
+
+    Added Python solution for Day 3
+
+commit 62eb2100204d68f6ee0f6951281231ec8b9b439c
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Sat Dec 3 06:43:53 2022 +0100
+
+    Added solution for Day 3
+
+commit aaa043222e43f1ef16971f277d2ce6d60a67d235
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Fri Dec 2 07:31:17 2022 +0100
+
+    Day 2: rock/paper/scissors
+
+commit 327724a6c59abdddfb88f2d30a75cd3c3cc7e925
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Thu Dec 1 08:49:41 2022 +0100
+
+    Fixed comment in utils.go
+
+commit 8a40794344a571bcfc9dcb7bad93f7e5c35bf572
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Thu Dec 1 08:48:30 2022 +0100
+
+    Made min/max utils generic, and cleaned up Day 1 problem text
+
+commit 157f63e4ef78aa1c83871ed545cb00c8744c0505
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Thu Dec 1 07:10:22 2022 +0100
+
+    Day 1 solution (simple sum of lists)
+
+commit 9e1da9c15e384362145cebb8a13c02157b5ddfca
+Author: Andreas Kaempf <andreas.kaempf@bain.com>
+Date:   Tue Nov 29 09:49:27 2022 +0100
+
+    Added template, initialized README.md
+
+commit 1c3d9bc5fda42e99ae5465cb841431932fbcadfd
+Author: Andreas Kaempf <andreas.kaempf@soundience.com>
+Date:   Tue Nov 29 09:25:25 2022 +0100
+
+    Initial commit

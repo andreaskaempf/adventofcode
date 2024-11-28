@@ -1,34 +1,27 @@
-// Advent of Code 2023, Day 10
+// Advent of Code 2024, Day 01
 //
 //
 //
-// AK, 10 Dec 2023
+// AK, 01 Dec 2024
 
 package main
 
 import (
-	"fmt"
-	//"strings"
 	"bytes"
+	"fmt"
 	"io/ioutil"
 )
 
 func main() {
 
-	// Read the input file into a list of byte vectors
+	// Read the input file into a list of byte vectors (remove any blank rows first)
 	fname := "sample.txt"
 	//fname = "input.txt"
-	// lines := readLines(fname)  // for strings
 	data, _ := ioutil.ReadFile(fname)
 	rows := bytes.Split(data, []byte("\n"))
 
-	// Remove last row if empty
-	if len(rows[len(rows)-1]) == 0 {
-		rows = rows[:len(rows)-1]
-	}
-
+	// Process each row
 	for _, l := range rows {
 		fmt.Println(string(l))
 	}
-
 }

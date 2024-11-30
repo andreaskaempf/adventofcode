@@ -15,3 +15,10 @@ see https://adventofcode.com/2019
   location zero. For Part 2, we find the combination that results in a certain
   output value (just used brute force).
 
+* **Day 3** (Go): Give two lists of instructions for two "wires", with each
+  instruction L/R/U/D followed by a number, traverse a 2D grid along the
+  specified directions, to find where the two wires cross (but don't include a
+  wire crossing with itself). For Part 1, find the closest intersection
+  from the starting point. For Part 2, find the intersection that had the 
+  shortest combined number of steps to get there.
+

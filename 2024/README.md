@@ -3,7 +3,7 @@
 My solutions for the Advent of Code 2024, 
 see https://adventofcode.com/2024
 
-* **Day 1** (Go): Given rows of pairs of numbers, extract the two 
+* **Day 1** (Go, Rust): Given rows of pairs of numbers, extract the two 
   lists, sort them, and find the sum of the absolute difference 
   (Part 1). For Part 2, sum up the product of each number in the 
   left list, times the number of times it occurs in the right list.

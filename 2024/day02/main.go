@@ -44,7 +44,7 @@ func main() {
 	}
 
 	fmt.Println("Part 1 (s/b 606):", part1)
-	fmt.Println("Part 2 (s/b 606):", part2)
+	fmt.Println("Part 2 (s/b 644):", part2)
 }
 
 // For Part 2, try removing each number in the list, and check if passes checks

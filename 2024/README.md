@@ -8,6 +8,12 @@ see https://adventofcode.com/2024
   (Part 1). For Part 2, sum up the product of each number in the 
   left list, times the number of times it occurs in the right list.
 
+* **Day 2** (Go): Given rows of numbers, check each for the following 
+  conditions: all numbers are increasing/decreasing, and by 1 to 3 
+  each step. For Part 1, count up how many rows meet the condition. 
+  For Part 2, count up how many rows would meet the condition, if any 
+  digit were removed.
+
 To compile and run a **Go** program
 * Change into the directory with the program
 * `go mod init day01`  (*only if go.mod does not yet exist*)

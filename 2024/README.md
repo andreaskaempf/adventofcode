@@ -14,6 +14,10 @@ see https://adventofcode.com/2024
   For Part 2, count up how many rows would meet the condition, if any 
   digit were removed.
 
+* **Day 3** (Go): Given a string, find all embedded "mul(3,4)" 
+  instructions, and add up the results of the multiplications. 
+  For Part 2, "do()" and "don't()" turn multiplication on/off.
+
 To compile and run a **Go** program
 * Change into the directory with the program
 * `go mod init day01`  (*only if go.mod does not yet exist*)

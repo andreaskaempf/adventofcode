@@ -16,9 +16,6 @@ import (
 	"strings"
 )
 
-// Global state of whether multiplication is on
-var multOn int
-
 func main() {
 
 	// Read the input file into lines
@@ -34,17 +31,24 @@ func main() {
 
 	// Process each row, finding the valid instructions, executing them,
 	// and adding up values
-	multOn = 1           // global flag for whether multiplication is on
-	var part1, part2 int // initialized to zero
+	multOn := 1          // flag for whether multiplication is on
+	var part1, part2 int // answers, initialized to zero
 	for _, l := range lines {
 		instr := r.FindAllString(l, -1) // find all instructions
-		for _, i := range instr {
-			val := execute(i)     // get value, e.g., multiplication
-			part1 += val          // always add for Part 1
-			part2 += val * multOn // only when mult turned on for Part 2
+		for _, i := range instr {       // each instruction
+			if i == "do()" { // turn multiplication ON (Part 2)
+				multOn = 1
+			} else if i == "don't()" { // turn multiplication OFF
+				multOn = 0
+			} else { // do multiplication
+				val := execute(i)     // get value, e.g., multiplication
+				part1 += val          // always add for Part 1
+				part2 += val * multOn // only when mult turned on for Part 2
+			}
 		}
 	}
 
+	// Show answers
 	fmt.Println("Part 1 (s/b 182780583):", part1)
 	fmt.Println("Part 2 (s/b 90772405):", part2)
 }
@@ -52,24 +56,13 @@ func main() {
 // Execute an instruction, e.g., "mul(2,3)" -> 6
 func execute(s string) int {
 
-	// "do()" and "don't()" turn mult on/off for Part 2
-	if s == "do()" {
-		multOn = 1
-		return 0
-	}
-	if s == "don't()" {
-		multOn = 0
-		return 0
-	}
-
 	// Pattern: instr(a,b)
 	patt := `([a-z]+)\(([0-9]+),([0-9]+)\)`
 	r := regexp.MustCompile(patt)
 
-	// Extract parts of pattern, i.e., the numbers to multiply
+	// Extract the numbers to multiply and return result
 	parts := r.FindStringSubmatch(s)
-	//instr := parts[1] // ignored, always "mul"
-	arg1 := parseInt(parts[2])
+	arg1 := parseInt(parts[2]) // ignore parts[1], always "mul"
 	arg2 := parseInt(parts[3])
 	return arg1 * arg2 // do the multiplication
 }

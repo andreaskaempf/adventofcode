@@ -21,6 +21,13 @@ see https://adventofcode.com/2024
 * **Day 4** (Go): Find all instances in XMAS in a matrix of text 
   in any direction (part 1), or MAS cross pattern (part 2).
 
+* **Day 5** (Go): You are given a list of page number pairs, indicating 
+  that the right page must be printed after the left page number. You are 
+  also given a list of manual "updates", each a list of page numbers. For 
+  each update, determine if the pages are in the correct sequence, and add up
+  the middle page numbers.  For Part 2, rearrange the  incorrectly ordered
+  updates, and add up the middle page numbers.
+
 To compile and run a **Go** program
 * Change into the directory with the program
 * `go mod init day01`  (*only if go.mod does not yet exist*)

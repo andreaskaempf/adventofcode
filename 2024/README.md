@@ -28,6 +28,12 @@ see https://adventofcode.com/2024
   the middle page numbers.  For Part 2, rearrange the  incorrectly ordered
   updates, and add up the middle page numbers.
 
+* **Day 6** (Go): Given a grid with starting point, initial direction, 
+  and some ostacles, move in direction until you hit an obstacle (turn 90
+  degrees right), or you exit grid (you're done). For Part 1,
+  count up the number of cells visited. For Part 2, count up how
+  many new obstacles would cause an endless loop.
+
 To compile and run a **Go** program
 * Change into the directory with the program
 * `go mod init day01`  (*only if go.mod does not yet exist*)

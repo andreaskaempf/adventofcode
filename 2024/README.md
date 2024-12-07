@@ -34,6 +34,14 @@ see https://adventofcode.com/2024
   count up the number of cells visited. For Part 2, count up how
   many new obstacles would cause an endless loop.
 
+* **Day 7** (Go): Given a number of target: n n n lines, add up all the 
+  targets for which the n values can be computed left-to-right using some
+  combination of + or * operators. For Part 2, there is third || operator,
+  which string-concatenates the operands. There is no operator precedence, just
+  left-to-right. Key to this was coming up with all the combinations of 2 or 3
+  values across any number of columns. For Part 1, I did this with binary
+  arithmetic, but had to code an arbitrary-base counting function for Part 2.
+
 To compile and run a **Go** program
 * Change into the directory with the program
 * `go mod init day01`  (*only if go.mod does not yet exist*)

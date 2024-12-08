@@ -42,6 +42,11 @@ see https://adventofcode.com/2024
   values across any number of columns. For Part 1, I did this with binary
   arithmetic, but had to code an arbitrary-base counting function for Part 2.
 
+* **Day 8** (Go): Given letters on a grid, extrapolate the diagonal distance 
+  between each pair of the same letter, in either direction, and count up
+  the total number of cells occupied by new entries. For Part 2, extrapolate
+  in a line either direction.
+
 To compile and run a **Go** program
 * Change into the directory with the program
 * `go mod init day01`  (*only if go.mod does not yet exist*)

@@ -47,6 +47,12 @@ see https://adventofcode.com/2024
   the total number of cells occupied by new entries. For Part 2, extrapolate
   in a line either direction.
 
+* **Day 9** (Go): Simulate two different strategies for disk fragmentation, 
+  taking a list of digits where each pair of digit is a file size followed 
+  by space after the data (both in blocks). For Part 1, move parts of files 
+  to first available space, and calculate a "checksum".  For Part 2, you move 
+  the whole file (all blocks) but start with the file with highest ID.
+
 To compile and run a **Go** program
 * Change into the directory with the program
 * `go mod init day01`  (*only if go.mod does not yet exist*)

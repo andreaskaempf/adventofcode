@@ -53,6 +53,21 @@ see https://adventofcode.com/2024
   to first available space, and calculate a "checksum".  For Part 2, you move 
   the whole file (all blocks) but start with the file with highest ID.
 
+* **Day 10** (Go): Given a terrain of 0-9 digits, start at each 0 and walk 
+  up any path that increments by one each step, until you reach a 9. For Part
+  1, how many 9s are reached. For Part 2, what is the total number of paths
+  from anywhere that reach there. Did with simple recursion.
+
+* **Day 11** (Python, Go): Apply transformations to a list of numbers, 
+  so that zeros become ones, numbers with an even number of digits get split in
+  half, or the number gets multiplied by 2024 (only one test per number). Do
+  all these simulataneously, i.e., changing a copy of the data and referencing
+  the original without changing it. For Part 1, it was okay to naively build up
+  a list over 25 iterations, but for Part 2 there were 75 iterations, and
+  memory ran out after about 45 iterations. So changed formulation to use a
+  dictionary, since the numbers could be processed in any order, and many of
+  the numbers are repeated.
+
 To compile and run a **Go** program
 * Change into the directory with the program
 * `go mod init day01`  (*only if go.mod does not yet exist*)

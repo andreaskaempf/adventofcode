@@ -64,7 +64,7 @@ func main() {
 // each step along the way as a separate path (required for Part 2). For
 // Part 1, mark all 9s reached.
 func trails(x, y int) int {
-
+	fmt.Println(x, y)
 	// If on a 9, we found a trail
 	elev := at(x, y)
 	if elev == 9 {
@@ -84,7 +84,7 @@ func trails(x, y int) int {
 	if at(x-1, y) == elev { // left
 		heads += trails(x-1, y)
 	}
-	if at(x+1, y) == elev { // left
+	if at(x+1, y) == elev { // right
 		heads += trails(x+1, y)
 	}
 	return heads

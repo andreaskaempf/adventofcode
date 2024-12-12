@@ -47,8 +47,7 @@ func main() {
 	visited = map[Point]bool{}
 	for findAndExplore() { // this function returns false when nothing left to explore
 	}
-	fmt.Printf("Part 1 (1930 / 1363682) = %d, Part 2 (1206) = %d\n", part1, part2)
-
+	fmt.Printf("Part 1 (1930 / 1363682) = %d, Part 2 (1206 / 787680) = %d\n", part1, part2)
 }
 
 // Find the first unexplored cell, and explore from there, return false
@@ -114,48 +113,31 @@ func perims(p Point) int {
 // Or the same c value, and sequential r values
 func countSides() int {
 
-	fmt.Println("")
-	fmt.Println(string(at(points[0])), "points:", points)
 	groups := 0
 
 	// Count left sides
-	edge := getEdgePoints(0, -1) // all points on left side
-	fmt.Println("left edges:", edge)
-	colGroups := groupCols(edge) // group by columns
-	fmt.Println("  cols:", colGroups)
-	g := 0
+	edge := getEdgePoints(0, -1)   // all points on left side
+	colGroups := groupCols(edge)   // group by columns
 	for _, cg := range colGroups { // within each column group
-		rows := getRowNumbers(cg)         // just the row numbers
-		g += countConsecutiveGroups(rows) // number of consecutive groups
+		rows := getRowNumbers(cg)              // just the row numbers
+		groups += countConsecutiveGroups(rows) // number of consecutive groups
 	}
-	fmt.Println("  left sides =", g)
-	groups += g
 
 	// Count right sides
-	edge = getEdgePoints(0, 1) // all points on right side
-	fmt.Println("right edges:", edge)
-	colGroups = groupCols(edge) // group by columns
-	fmt.Println("  cols:", colGroups)
-	g = 0
+	edge = getEdgePoints(0, 1)     // all points on right side
+	colGroups = groupCols(edge)    // group by columns
 	for _, cg := range colGroups { // within each column group
-		rows := getRowNumbers(cg)         // just the row numbers
-		g += countConsecutiveGroups(rows) // number of consecutive groups
+		rows := getRowNumbers(cg)              // just the row numbers
+		groups += countConsecutiveGroups(rows) // number of consecutive groups
 	}
-	fmt.Println("  right sides =", g)
-	groups += g
 
 	// Count top sides
-	edge = getEdgePoints(-1, 0) // all points on left side
-	fmt.Println("top edges:", edge)
-	rowGroups := groupRows(edge) // group by columns
-	fmt.Println("  rows:", rowGroups)
-	g = 0
+	edge = getEdgePoints(-1, 0)    // all points on left side
+	rowGroups := groupRows(edge)   // group by columns
 	for _, rg := range rowGroups { // within each column group
-		cols := getColNumbers(rg)         // just the row numbers
-		g += countConsecutiveGroups(cols) // number of consecutive groups
+		cols := getColNumbers(rg)              // just the row numbers
+		groups += countConsecutiveGroups(cols) // number of consecutive groups
 	}
-	fmt.Println("  top sides =", g)
-	groups += g
 
 	// Count bottom sides
 	edge = getEdgePoints(1, 0)     // all points on left side

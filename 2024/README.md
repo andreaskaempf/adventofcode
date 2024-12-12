@@ -68,6 +68,19 @@ see https://adventofcode.com/2024
   dictionary, since the numbers could be processed in any order, and many of
   the numbers are repeated.
 
+* **Day 12** (Go): Given a matrix of letters that represent different polygons, 
+  find the area of each polygon, and the length of the perimiter. For Part 1,
+  the sumproduct of the areas * perimiters.  For Part 2, count up the number of
+  sides, and calculate the sumproduct of area * sides.  For Part 1, just
+  recursively explore each shape to capture the polygon, total area is just the
+  number of cells, and perimiter just requires adding up where
+  left/right/up/down is something different for each cell. Part 2 was much more
+  difficult, and I ended up doing each side separately. E.g., for the left
+  edge, finding all cells that have nothing or something different to the left,
+  grouping these by column, and counting the number of sequential blocks within
+  each column group. Doing this in each of the four directions and adding up
+  the number of blocks gives the right answer.
+
 To compile and run a **Go** program
 * Change into the directory with the program
 * `go mod init day01`  (*only if go.mod does not yet exist*)

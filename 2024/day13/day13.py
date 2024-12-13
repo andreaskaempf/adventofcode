@@ -72,7 +72,7 @@ for m in machs:
     f.close()
     
     # Run the model using the command-line solver
-    os.system('glpsol --math tmp.mpl > _tmp.out')
+    os.system('glpsol --math _tmp.mpl > _tmp.out')
 
     # Parse the output
     ok = False

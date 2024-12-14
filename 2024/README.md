@@ -93,6 +93,16 @@ see https://adventofcode.com/2024
   works for Parts 1 and 2) writes a GLPK model, runs the solver, and parses the
   result. And it's really fast!
 
+* **Day 14** (Go): Given a list of "robots" in a ~100x100 2D space, each with an 
+  x,y position and an dx,dy per-second velocity, simulate 100 iterations of the
+  robots moving around, wrapping around at the edges. For Part 1, answer is the
+  product of the number of robots in each of the four quadrants after 100
+  iterations. For Part 2, it's the first iteration that yields ASCII art of a
+  Christmas tree. First part was easy simulation. For Part 2, just drew maps of
+  configuration after each iteration where there appeared to be lots of
+  "robots" in one row, this was sufficient to find the answer by visual
+  inspection.
+
 To compile and run a **Go** program
 * Change into the directory with the program
 * `go mod init day01`  (*only if go.mod does not yet exist*)

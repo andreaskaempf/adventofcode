@@ -110,6 +110,15 @@ see https://adventofcode.com/2024
   boxes can overlap). In both parts, answer is calculated from final position 
   of all the boxes. Parts 1 and 2 in separate Go files.
 
+* **Day 17** (Rust): Simulate execution of an 8-bit machine language program with 
+  opcodes and arcane instruction rules such as dividing, xoring, outputting
+  numbers, and jumping. For Part 1, show the output of running a short
+  "program", a list of 16 numbers. For Part 2, find the "register A" starting
+  value that causes the program to output the same 16 values as the input
+  program. Part 1 was simple implementation of virtual CPU. For Part 2,
+  inspected outputs for incremental input values, and used patterns found to
+  converge on likely input ranges, and used brute force from there.
+
 To compile and run a **Go** program
 * Change into the directory with the program
 * `go mod init day01`  (*only if go.mod does not yet exist*)

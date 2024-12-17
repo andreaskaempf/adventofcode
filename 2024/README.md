@@ -103,6 +103,13 @@ see https://adventofcode.com/2024
   "robots" in one row, this was sufficient to find the answer by visual
   inspection.
 
+* **Day 15** (Go): Given a map of walls and movable "boxes",  and a list of 
+  up/down/left/right instructions, move a "robot" around, moving boxes as much
+  as possible if they are in the way. For Part 2, the width of walls and boxes
+  are doubled, but the robot remains width one, making movement tricker (since
+  boxes can overlap). In both parts, answer is calculated from final position 
+  of all the boxes. Parts 1 and 2 in separate Go files.
+
 To compile and run a **Go** program
 * Change into the directory with the program
 * `go mod init day01`  (*only if go.mod does not yet exist*)

@@ -119,6 +119,12 @@ see https://adventofcode.com/2024
   inspected outputs for incremental input values, and used patterns found to
   converge on likely input ranges, and used brute force from there.
 
+* **Day 18** (Rust): Find shortest distance from one corner of a 71x71 grid to 
+  the oppposite corner, avoiding obstacles from a list of coordinates. For Part
+  1, just find the distance, using the first 1024 obstacles in the list. For
+  Part 2, find the coordinates of the first obstacle that make it impossible to
+  reach the location. Implemented Djikstra algorithm in Rust, works very well.
+
 To compile and run a **Go** program
 * Change into the directory with the program
 * `go mod init day01`  (*only if go.mod does not yet exist*)

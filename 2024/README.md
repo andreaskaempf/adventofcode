@@ -125,6 +125,15 @@ see https://adventofcode.com/2024
   Part 2, find the coordinates of the first obstacle that make it impossible to
   reach the location. Implemented Djikstra algorithm in Rust, works very well.
 
+* **Day 19** (Go): Given a list of short patterns of letters ("stripes on a 
+  towel"), check a series of long patterns ("designs") to see if they can be
+  composed of any combination of the short patterns.  For Part 1, determine how
+  many of the designs can be made up of patterns. For Part 2, how many
+  combinations in total. Did this with simple recursion, cycling through
+  patterns that match head of a string, then doing same for the tail. For the
+  problem input, had to add memoization of sub-designs already encountered as
+  was taking too long.
+
 To compile and run a **Go** program
 * Change into the directory with the program
 * `go mod init day01`  (*only if go.mod does not yet exist*)

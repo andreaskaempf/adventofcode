@@ -140,6 +140,20 @@ see https://adventofcode.com/2024
   problem input, had to add memoization of sub-designs already encountered as
   was taking too long.
 
+* **Day 20** (Go): Given a maze with only one path through it, find shortcuts of 
+  length 2 that cut through walls and shorten the path. For Part 1, count up
+  the number of shortcuts that shorten the path by 100 or more. For Part 2,
+  find shortcuts of length 2 to 20, also counting up the number that reduce the
+  path by 100 or more steps. This one took me a long time, because I thought
+  the problem was more complex than it is. Built a Dijkstra implementation that
+  temporarily ignored walls for two steps, also a recursive traversal that did
+  the same. In the end, found the answer by looking at all pairs of points
+  along the path, that have a combined horizontal + vertical distance between
+  them of length 2 (Part 1) or between 2-20 (Part 2), and measured the distance
+  saved, by using the difference between the sequential step numbers along the
+  two path points, plus the length of the shortcut itself, to get the new
+  distance.
+
 To compile and run a **Go** program
 * Change into the directory with the program
 * `go mod init day01`  (*only if go.mod does not yet exist*)

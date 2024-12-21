@@ -110,6 +110,12 @@ see https://adventofcode.com/2024
   boxes can overlap). In both parts, answer is calculated from final position 
   of all the boxes. Parts 1 and 2 in separate Go files.
 
+* **Day 16** (Go): Given a maze, find the shortest path, with the twist that 
+  90 degree turns have a cost of 1000. For Part 2, count up all the squares
+  that were traversed while reaching the end at the lowest cost. Did this using
+  Djikstra algorithm, adapted to deal with the added cost of turns, and keeping
+  track of squares traversed.
+
 * **Day 17** (Rust): Simulate execution of an 8-bit machine language program with 
   opcodes and arcane instruction rules such as dividing, xoring, outputting
   numbers, and jumping. For Part 1, show the output of running a short

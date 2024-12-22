@@ -154,6 +154,17 @@ see https://adventofcode.com/2024
   two path points, plus the length of the shortcut itself, to get the new
   distance.
 
+* **Day 21**: to do
+
+* **Day 22 (Go)**: Use an arcane series of calculations to calculate the next 
+  2000 "secret numbers" starting with first for each of about 1600 players. For
+  Part 1, add up the 2000th numbers. For Part 2, find optimal revenue that can
+  be achieved, by deriving price from last digit of each secret number, the
+  delta from each subsequent pair, and finding a sequence of four price changes
+  common to all players, such that the revenue from that player is the price at
+  the end of the first occurrence of the sequence. Used brute force, runs in
+  about 2 minutes in Go.
+
 To compile and run a **Go** program
 * Change into the directory with the program
 * `go mod init day01`  (*only if go.mod does not yet exist*)

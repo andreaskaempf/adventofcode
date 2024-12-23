@@ -165,6 +165,12 @@ see https://adventofcode.com/2024
   the end of the first occurrence of the sequence. Used brute force, runs in
   about 2 minutes in Go.
 
+* **Day 23** (Go): Given a list of connected node pairs, find all groups of 3 
+  that are connected to each other, where at least on of the nodes starts with 
+  't' (Part 1).  For Part 2, find the largest set of nodes that are all connected
+  to each other, sort names and join with commas. Did this directly, no graph
+  library (would not have helped).
+
 To compile and run a **Go** program
 * Change into the directory with the program
 * `go mod init day01`  (*only if go.mod does not yet exist*)

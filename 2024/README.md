@@ -154,7 +154,7 @@ see https://adventofcode.com/2024
   two path points, plus the length of the shortcut itself, to get the new
   distance.
 
-* **Day 21**: to do
+* **Day 21 (Go)**: not complete
 
 * **Day 22 (Go)**: Use an arcane series of calculations to calculate the next 
   2000 "secret numbers" starting with first for each of about 1600 players. For
@@ -170,6 +170,15 @@ see https://adventofcode.com/2024
   't' (Part 1).  For Part 2, find the largest set of nodes that are all connected
   to each other, sort names and join with commas. Did this directly, no graph
   library (would not have helped).
+
+* **Day 24** (Go): not complete
+
+* **Day 25** (Go): Input is a series of 6x5 blocks of # and . characters, 
+  representing locks (heights from top down) or keys (heights from bottom up).
+  Find out how many key & lock pairs fit, i.e., heights to not overlap.
+  Checking was trivial, but parsing the input into arrays of heights was a
+  chore. There is no Part 2, granted automatically when you complete all the
+  other puzzles.
 
 To compile and run a **Go** program
 * Change into the directory with the program

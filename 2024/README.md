@@ -154,7 +154,23 @@ see https://adventofcode.com/2024
   two path points, plus the length of the shortcut itself, to get the new
   distance.
 
-* **Day 21 (Go)**: not complete
+* **Day 21 (Go)**: You are given a numeric keypad on which to type five 
+  4-character codes. But you cannot type directly, but must mobilize a robot
+  arm with a different keypad equipped with arrows and an Enter key.  That arm
+  must be controlled by another similar robot, which you can control using
+  another keypad equipped with arrows. So two levels of indirection, 25 for
+  Part 2. You must determine the length of each sequence that you type, in
+  order to ultimately cause each code to be entered on the numeric keypad.
+  This was very tricky, because upstream robots will have different path
+  lengths depending on the paths of downstream robots. Ultimately, the solution
+  for Part 2 involved recursively expanding paths, starting with the number pad
+  and moving away from that. In order to make the problem tractable in terms of
+  time and memory, the solution maintains a cache of sequence lengths at each
+  level of recursion.  This is possible because (A) the downstream keypads
+  (after the number pad) always have to return the to A key at the end of each
+  sequence, so you can treat sequences after the first as independent, and (B)
+  you only need to know the final length, not the sequence itself. So the
+  interim counters can be memoized, making the calculation very fast.
 
 * **Day 22 (Go)**: Use an arcane series of calculations to calculate the next 
   2000 "secret numbers" starting with first for each of about 1600 players. For

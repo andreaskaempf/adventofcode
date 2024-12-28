@@ -187,7 +187,21 @@ see https://adventofcode.com/2024
   to each other, sort names and join with commas. Did this directly, no graph
   library (would not have helped).
 
-* **Day 24** (Go): not complete
+* **Day 24** (Go): You are given a set of 1/0 values for a bunch of x/y variables, 
+  each representing a bit.  For Part 1, evaluate all variables starting with z,
+  recursively performing AND/OR/XOR operations in a hierarchy of equations, and
+  finally assemble the results into a binary number, and convert binary to
+  decimal. For Part 2, ignore the initial given values for the x/y values, and
+  instead find 4 equation swaps that make the system work as an adder that
+  outputs sum of any x and y bits into z. The x, y, and z variables represent
+  bits, in reverse order from the usual (i.e., least significant bit first).
+  Part 1 was a straightforward recursive equation interpreter. For Part 2, I
+  used heuristically guided brute force, by testing all z circuits for those
+  that would fail to add properly, gathering all the input variables for these
+  circuits, and testing every pair of those for swaps that would reduce the
+  number of errors output by the system.  Of these 20 pairs that reduced the
+  error count, then tried all combinations of 4 swaps for one that would make
+  the adder error-free.
 
 * **Day 25** (Go): Input is a series of 6x5 blocks of # and . characters, 
   representing locks (heights from top down) or keys (heights from bottom up).
